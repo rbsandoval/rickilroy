@@ -1,0 +1,64 @@
+.image-auto{
+height: auto !important;
+}
+
+.wrapper-auto{
+    height: auto !important;
+    }
+
+
+.center {
+        margin: auto;
+        width: 50%;
+        border: 3px solid #73AD21;
+        padding: 10px;
+      }
+  
+
+.sepia {
+    height:200px; 
+    padding: 200px 0px 200px 0px; 
+    background-color: rgba(0,0,0,0.02) !important; 
+    filter: sepia(100%); 
+    align-content: center;
+}   
+
+.text-center {
+    text-align: center;
+}      
+
+.text-shadow-sm {
+    text-shadow: 10px 10px 7px #a6a6a6 !important;
+}
+
+.text-shadow-md {
+    text-shadow: 15px 15px 7px #a6a6a6 !important;
+}
+
+.text-shadow-lg {
+    text-shadow: 20px 15px 7px #a6a6a6 !important;
+}
+
+.text-gray{
+    color: #696969;
+}
+
+.text-white{
+    color: #ffffff;
+}
+
+.text-black{
+    color: #000000;
+}
+
+.text-1.5x{
+font-size: 150%; 
+}
+
+.text-1.75x{
+font-size: 75%; 
+}
+
+h4 strong {
+    font-family: 'Lobster', cursive;
+}
