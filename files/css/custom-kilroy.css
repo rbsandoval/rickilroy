@@ -1,3 +1,17 @@
+.body-bg {
+  background-image: url("/images/bg-linen-gray.jpg");
+  background-position: 50% 50%;
+  background-repeat: repeat;
+}
+
+
+.h1-text {
+  margin: 0px 0px 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 80px;
+}
+
 .image-auto {
   height: auto !important;
 }
@@ -24,15 +38,15 @@
 }
 
 .text-shadow-sm {
-  text-shadow: 10px 10px 7px #a6a6a6 !important;
+  text-shadow: 7px 7px 5px black !important;
 }
 
 .text-shadow-md {
-  text-shadow: 15px 15px 7px #a6a6a6 !important;
+  text-shadow: 15px 15px 7px black !important;
 }
 
 .text-shadow-lg {
-  text-shadow: 20px 15px 7px #a6a6a6 !important;
+  text-shadow: 20px 15px 7px rgb(109, 107, 107) !important;
 }
 
 .text-gray {
@@ -105,4 +119,10 @@ h3 {
 
 .image-page-title {
     margin-left: 70px;
+}
+
+.image-logo-footer {
+  width: 200px;
+  height: 200px;
+  margin-left: -45px;
 }
