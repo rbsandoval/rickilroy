@@ -844,7 +844,7 @@ i[class*='ion-'], i[class*='fa-'] { color: #000000; }
 #header .header-inner {
 	width: calc(100% - 200px);
 	margin: 0 auto;
-	padding: 80px 0 80px 0;
+	padding: 0px 0px 0px 0px;
 	}
 
 #header #logo {
@@ -1827,7 +1827,7 @@ header.menu-is-open .menu-toggle span:after {
 	
 .portfolio-category + .portfolio-name {
 	margin-top: 0px;
-	}
+}
 
 
 /*---------------------------------------------- 
