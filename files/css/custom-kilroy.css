@@ -41,6 +41,11 @@
   text-shadow: 2px 2px 4px black !important;
 }
 
+.text-shadow-xs-white {
+  text-shadow: 2px 2px 4px white !important;
+}
+
+
 .text-shadow-sm {
   text-shadow: 4px 4px 5px black !important;
 }
@@ -110,6 +115,25 @@ h2-blog {
   font-weight: 300;
 }
 
+.image-art-frame-white {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border-width:8px;  
+  border-style:ridge; 
+  border-color:white;
+}
+
+.image-art-frame-darkgray {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border-width:8px;  
+  border-style:ridge; 
+  border-color:darkgray;
+}
+
+
 .image-dshadow {
   box-shadow: 7px 15px 10px #d9d9d9;
   border: 1px solid black;
@@ -127,7 +151,7 @@ h2-blog {
   }
 
 .image-page-title {
-    margin-left: 70px;
+    margin: 80px 0px 0px 150px;
 }
 
 .image-logo-footer {
@@ -140,4 +164,31 @@ h2-blog {
 
 .footer-copyright {
   margin-top: 0px;
+}
+
+
+.opacity-light {
+  height: 200px;
+  padding: 200px 0px 200px 0px;
+  background-color: rgba(0, 0, 0, 0.02) !important;
+  align-content: center;
+  opacity: 0.35; /* Barely see the text over the background */
+}
+.opacity-medium {
+  height: 200px;
+  padding: 200px 0px 200px 0px;
+  background-color: rgba(0, 0, 0, 0.02) !important;
+  align-content: center;
+  opacity: 0.6; /* Barely see the text over the background */
+}
+.opacity-heavy {
+  opacity: 0.9; /* See the text very clearly over the background */
+}
+
+
+.opacity-border {
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  background: rgba(255,255,255,.5);
 }
